@@ -1,2 +1,7 @@
-#!/bin/bash
-ln -s /bin/ls _ls_
+#!/bin/env bash
+# This code must write "Best School" 10 times
+
+for (( i=1; i<=10; i++))
+do
+echo "Best School" "$1"
+done
